@@ -124,13 +124,17 @@ main{
     left: 3em;
     top: 5em;
 }
+
 .sab{
+
     margin: auto 0;
-    width: 10em;
+    width: 13em;
     height: 2.5em;
     position: absolute;
     right: 5em;
-    top: 11em;
+    top: 13em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
 }
 
 .container-text{
@@ -157,13 +161,14 @@ main{
     display: flex;
     text-align: left;
     font-size: 18px;
+    flex-direction: column;
 }
 .journey-text p{
     flex-wrap: wrap;
     font-family: 'Montserrat', sans-serif;
 }
 
-@media (min-width: 1630px){
+@media (min-width:1630px){
     .container-main{
         width: 100%;
         height: 22em;
@@ -238,11 +243,12 @@ main{
         flex-direction: column;
     }
     .tricks{
-       top: 2em;
-       left: 2em;
+       top: 3em;
+       left: 0.5em;
     }
     .sab{
-        left: 3.5em;
+        top: 14em;
+        left: 1.5em;
     }
 
     .container-text h1{
@@ -292,23 +298,69 @@ main{
     }
 
     .container-main{
+        top: 1em;
         background-position: 35%;
+        background-size: 295%;
     }
 
     .container-text{
-        height: 80%;
-        border: solid black;
+        top: 37em;
+        height: 100%;
+        padding: 2em;
     }
 
-    .container-text p{
-        border: solid black;
-        height: 20em;
+    .main-text{
+        width: 100%;
+    }
+    .main-text h1{
+        font-size: 39px;
     }
 
-    .journey-text p span{
-        border: solid blue;
-        height: 50%;
-        margin-bottom: 100em;
+    .journey-text{
+        width: 100%;
+    }
+    .journey-text p{
+        font-size: 18px;
+        margin-bottom: 2em;
+    }
+
+}
+
+@media (max-width:563px){
+    .container-text{
+        height: 35em;
+        padding-top: 0em;
+    }
+}
+
+@media (max-width:420px){
+    .container-text{
+        height: 40em;
+    }
+}
+
+@media (max-width:412px){
+
+    .container-main{
+        top: -3em;
+        background-position:25%;
+        background-size: 200%;
+    }
+
+    .container-text{
+        top: 22em;
+    }
+
+    .tricks {
+        font-size: 30px;
+        top: 6em;
+        left: 2em;
+    }
+
+    .sab {
+       font-size: 15px;
+       top: 20em;
+       left: 4em;
     }
 
 }
