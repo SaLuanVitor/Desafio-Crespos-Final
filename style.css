@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playfair+Display+SC&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -47,6 +48,7 @@ header{
 .logo img{
     width: 70px;
     height: 45px;
+    cursor: pointer;
 }
 
 .navegation-options ul{
@@ -60,6 +62,8 @@ header{
 .navegation-options ul li{
     margin-left: 4em;
     color: #9767A9;
+    cursor: pointer;
+    transition: 0.2s all;
 }
 .navegation-options ul li:hover{
     font-weight: bolder;
@@ -92,6 +96,7 @@ input{
     width: 30px;
     height: 50px;
     margin-left: 1.5em;
+    cursor: pointer;
 }
 
 main{
@@ -152,20 +157,214 @@ main{
 
 .main-text{
     width: 50%;
-    font-size: 30px;
+    height: 6em;
+    text-align: left;
+    font-size: 1.4em;
+    font-family: 'Playfair Display SC', serif;
 }
 
 .journey-text{
-    width: 45%;
+    width: 40%;
     margin-left: 1em;
     display: flex;
     text-align: left;
-    font-size: 18px;
+    font-size: 1.1em;
     flex-direction: column;
 }
 .journey-text p{
     flex-wrap: wrap;
     font-family: 'Montserrat', sans-serif;
+}
+
+.img-crespos{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 20.5em;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+.img-crespos figure{
+   width: 100%;
+   width: 500px;
+   height: 420px;
+}
+
+.crespos-top{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin-bottom: 15em;
+}
+
+.crespos-top .crespos-left:hover .box-text{
+    z-index: 9999;
+    top: 18em;
+    height: 60%;
+    width: 70%;
+    opacity: 1;
+}
+.crespos-top .crespos-right:hover .box-text{
+    z-index: 9999;
+    top: 19em;
+    height: 60%;
+    width: 70%;
+    opacity: 1;
+}
+
+.crespos-mid{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin-bottom: 13em;
+}
+.crespos-mid .crespos-left:hover .box-text{
+    z-index: 9999;
+    top: 19em;
+    height: 45%;
+    width: 70%;
+    opacity: 1;
+}
+.crespos-mid .crespos-right:hover .box-text{
+    z-index: 9999;
+    top: 19em;
+    height: 50%;
+    width: 70%;
+    opacity: 1;
+}
+
+.crespos-center{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin-bottom: 13em;
+}
+.crespos-center .crespos-left:hover .box-text{
+    z-index: 9999;
+    top: 19em;
+    height: 60%;
+    width: 70%;
+    opacity: 1;
+}
+.crespos-center .crespos-right:hover .box-text{
+    z-index: 9999;
+    top: 19em;
+    height: 50%;
+    width: 70%;
+    opacity: 1;
+}
+
+.crespos-bottom{
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+.crespos-bottom .crespos-left:hover .box-text{
+    z-index: 9999;
+    top: 19em;
+    height: 45%;
+    width: 70%;
+    opacity: 1;
+}
+
+
+.crespos-left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: 5em;
+    top: -3em;
+}
+
+.crespos-right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    right: -6em;
+    top: 10em;
+}
+
+.box-text{
+    background-color: #9767A9;
+    color: white;
+    position: absolute;
+    opacity: 0;
+    width: 300px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    top: 1em;
+    z-index: 1;
+    transition: 1.8s all;
+}
+
+div h3{
+    font-family: 'Playfair Display', 'Black Roman';
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+h3 .number{
+    font-size: 1.5em;
+    font-family: 'Playfair Display SC';
+}
+
+figure div p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+}
+
+
+.contain-crespos{
+    width: 500px;
+    height: 420px;
+    object-fit: contain;
+    z-index: 999;
+}
+
+.ondulado{
+    width: 50%;
+    position: absolute; 
+    top: 5em;
+}
+
+@media (min-width: 2000px){
+
+    .img-crespos{
+        height: 200%;
+    }
+    .crespos-top{
+        position: relative;
+    }
+    .crespos-mid{
+        position: relative;
+        top: -60em;
+    }
+    .crespos-center{
+        position: relative;
+        top: -120em;
+    }
+    .crespos-bottom{
+        position: relative;
+        top: -180em;
+    }
+    
+    .crespos-left{
+        left: 9em;
+        top: -8em;
+    }
+    .crespos-right{
+        right: 13em;
+        top: 0;
+    }
 }
 
 @media (min-width:1630px){
@@ -174,28 +373,71 @@ main{
         height: 22em;
         top: 0em;
     }
-    
-.tricks{
-    margin: auto 0;
-    height: 3.5em;
-    width: 5em;
-    font-size: 50px;
-    position: absolute;
-    left: 5em;
-    top: 6em;
-}
-.sab{
-    right: 10em;
-    top: 12.5em;
-}
+    .tricks{
+        margin: auto 0;
+        height: 3.5em;
+        width: 5em;
+        font-size: 50px;
+        position: absolute;
+        left: 5em;
+        top: 6em;
+    }
+    .sab{
+        right: 10em;
+        top: 12.5em;
+    }
 }
 
 @media (max-width:1190px){
     .header-nav{
-        padding: 3%;
+        padding: 2%;
     }
-    navegation-options ul{
+    .navegation-options ul{
         width: 100%;
+        margin-left: -0.5em;
+        margin-right: 2em;
+    }
+    .main-text{
+        font-size: 1.4em;
+    }
+    .journey-text{
+        font-size: 1em;
+    }
+}
+
+@media (max-width:1170px){
+
+    .crespos-top{
+        margin-bottom: 20em;
+    }
+    .crespos-mid{
+        margin-bottom: 16em;
+    }
+    .crespos-center{
+        margin-bottom: 18em;
+    }
+
+    .contain-crespos{
+        width: 400px;
+        height: 320px;
+    }
+    .ondulado{
+        top: 4em;
+    }
+}
+
+@media (max-width:1100px){
+    .crespos-left{
+        margin: 0 auto;
+        left: -1em;
+    }
+    .crespos-right{
+        margin: 0 auto;
+        left: -1em;
+    }
+    .img-crespos figure{
+        width: 400px;
+        height: 320px;   
     }
 }
 
@@ -206,6 +448,12 @@ main{
 
     .container-text{
         padding: 2em;
+    }
+}
+
+@media (max-width:1060px){
+    .img-crespos{
+        top: 26em;
     }
 }
 
@@ -220,10 +468,15 @@ main{
         width: 70%;
         font-size: 20px;
         padding-top: 1em;
-        margin-bottom: 1em;
     }
     .journey-text{
         width: 70%;
+    }
+}
+
+@media (max-width:1000px){
+    .navegation-options ul li{
+        font-size: 12px;
     }
 }
 
@@ -232,11 +485,10 @@ main{
         justify-content: space-evenly;
     }
     .navegation-options{
-        width: 75%;
-
+        width: 70%;
     }
     .navegation-options ul li{
-        font-size: 10px;
+        font-size: 10px;   
     }
 
     .container-main{
@@ -258,9 +510,44 @@ main{
         font-size: 15px;
     }
 
+     .contain-crespos{
+        width: 400px;
+        height: 320px;
+    }
+
+   .crespos-top{
+       flex-direction: column;
+   }
+   .crespos-mid{
+       flex-direction: column;
+       position: relative;
+       top:8em;
+   }
+   .crespos-center{
+       flex-direction: column;
+       position: relative;
+       top: 17em;
+   }
+   .crespos-bottom{
+       flex-direction: column;
+       position: relative;
+       top: 24em;
+   }
+
+   .crespos-left{
+       top:em;
+   }
+   .crespos-right{
+       right: -1em;
+       top: 10em;
+   }
+
 }
 
-@media (max-width:777px){
+@media (max-width:910px){
+    .img-crespos{
+        flex-direction: column;
+    }
     .nav-search{
         display: none;
     }
@@ -269,6 +556,13 @@ main{
     }
     .navegation-options{
         width: 90%;
+    }
+}
+
+@media (max-width:777px){
+
+    .container-text{
+        height: 75%;
     }
 }
 
@@ -312,15 +606,11 @@ main{
     .main-text{
         width: 100%;
     }
-    .main-text h1{
-        font-size: 39px;
-    }
 
     .journey-text{
         width: 100%;
     }
     .journey-text p{
-        font-size: 18px;
         margin-bottom: 2em;
     }
 
