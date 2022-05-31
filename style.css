@@ -131,7 +131,6 @@ main{
 }
 
 .sab{
-
     margin: auto 0;
     width: 13em;
     height: 2.5em;
@@ -187,8 +186,6 @@ main{
 }
 .img-crespos figure{
    width: 100%;
-   width: 500px;
-   height: 420px;
 }
 
 .crespos-top{
@@ -199,17 +196,17 @@ main{
 }
 
 .crespos-top .crespos-left:hover .box-text{
-    z-index: 9999;
-    top: 18em;
-    height: 60%;
-    width: 70%;
+    z-index: 12;
+    top: 14em;
+    width: 350px;
+    height: 250px;
     opacity: 1;
 }
 .crespos-top .crespos-right:hover .box-text{
-    z-index: 9999;
-    top: 19em;
-    height: 60%;
-    width: 70%;
+    z-index: 12;
+    top: 14em;
+    width: 350px;
+    height: 230px;
     opacity: 1;
 }
 
@@ -220,17 +217,17 @@ main{
     margin-bottom: 13em;
 }
 .crespos-mid .crespos-left:hover .box-text{
-    z-index: 9999;
-    top: 19em;
-    height: 45%;
-    width: 70%;
+    z-index: 12;
+    top: 15em;
+    width: 300px;
+    height: 200px;
     opacity: 1;
 }
 .crespos-mid .crespos-right:hover .box-text{
-    z-index: 9999;
+    z-index: 12;
     top: 19em;
-    height: 50%;
-    width: 70%;
+    width: 350px;
+    height: 190px;
     opacity: 1;
 }
 
@@ -241,17 +238,17 @@ main{
     margin-bottom: 13em;
 }
 .crespos-center .crespos-left:hover .box-text{
-    z-index: 9999;
-    top: 19em;
-    height: 60%;
-    width: 70%;
+    z-index: 12;
+    top: 14em;
+    width: 350px;
+    height: 210px;
     opacity: 1;
 }
 .crespos-center .crespos-right:hover .box-text{
-    z-index: 9999;
-    top: 19em;
-    height: 50%;
-    width: 70%;
+    z-index: 12;
+    top: 18em;
+    width: 350px;
+    height: 185px;
     opacity: 1;
 }
 
@@ -261,10 +258,10 @@ main{
     text-align: center;
 }
 .crespos-bottom .crespos-left:hover .box-text{
-    z-index: 9999;
-    top: 19em;
-    height: 45%;
-    width: 70%;
+    z-index: 12;
+    top: 15em;
+    width: 350px;
+    height: 170px;
     opacity: 1;
 }
 
@@ -284,7 +281,7 @@ main{
     flex-direction: column;
     position: relative;
     width: 100%;
-    right: -6em;
+    right: 8em;
     top: 10em;
 }
 
@@ -305,7 +302,7 @@ main{
 
 div h3{
     font-family: 'Playfair Display', 'Black Roman';
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: 600;
     text-align: left;
     margin-bottom: 10px;
@@ -319,21 +316,29 @@ h3 .number{
 
 figure div p{
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.8em;
+    font-size: 0.7em;
+    height: 14em;
+    text-align: left;
 }
 
 
 .contain-crespos{
-    width: 500px;
-    height: 420px;
+    width: 400px;
+    height: 320px;
     object-fit: contain;
-    z-index: 999;
+    z-index: 10;
+}
+.contain-crespos img{
+    width: 900px;
+    height: 320px;
+    object-fit: contain;
+    z-index: 10;
 }
 
 .ondulado{
     width: 50%;
     position: absolute; 
-    top: 5em;
+    top: 2em;
 }
 
 @media (min-width: 2000px){
@@ -407,38 +412,91 @@ figure div p{
 
 @media (max-width:1170px){
 
-    .crespos-top{
-        margin-bottom: 20em;
-    }
-    .crespos-mid{
-        margin-bottom: 16em;
-    }
-    .crespos-center{
-        margin-bottom: 18em;
-    }
-
     .contain-crespos{
-        width: 400px;
+        width: 380px;
         height: 320px;
     }
     .ondulado{
         top: 4em;
     }
+
+    .crespos-left{
+        top: -1em;
+        left: 7em;
+    }
+    .crespos-right{
+        top: 8em;
+    }
+
+    .crespos-top{
+        margin-bottom: 5em;
+    }
+    .crespos-top .crespos-left:hover .box-text{
+        top: 12em;
+        width: 290px;
+        height: 270px;
+    }
+    .crespos-top .crespos-right:hover .box-text{
+        top: 14em;
+        width: 320px;
+        height: 230px;
+    }
+
+    .crespos-mid{
+        margin-bottom: 5em;
+    }
+    .crespos-mid .crespos-left:hover .box-text{
+        top: 14em;
+        width: 290px;
+        height: 200px;
+    }
+    .crespos-mid .crespos-right:hover .box-text{
+        top: 15em;
+        width: 320px;
+        height: 250px;
+    }
+
+    .crespos-center{
+        margin-bottom: 7em;
+    }
+    .crespos-center .crespos-left:hover .box-text{
+        top: 14em;
+        width: 290px;
+        height: 240px;
+    }
+    .crespos-center .crespos-right:hover .box-text{
+        top: 18em;
+        width: 300px;
+        height: 200px;
+    }
+
+    .crespos-bottom .crespos-left:hover .box-text{
+        top: 15em;
+        width: 300px;
+        height: 190px;
+    }
 }
 
-@media (max-width:1100px){
+@media (max-width:1200px){
     .crespos-left{
         margin: 0 auto;
-        left: -1em;
+        left: 0;
     }
     .crespos-right{
         margin: 0 auto;
-        left: -1em;
+        left: -1em; 
     }
-    .img-crespos figure{
-        width: 400px;
-        height: 320px;   
+
+    .crespos-top{
+        margin-bottom: 10em;
     }
+    .crespos-mid{
+        margin-bottom: 12em;
+    }
+    .crespos-center{
+        margin-bottom: 10em;
+    }
+
 }
 
 @media (max-width:1080px){
@@ -458,6 +516,10 @@ figure div p{
 }
 
 @media (max-width:1048px){
+    .nav-search{
+        width: 20%;
+    }
+
     .container-text{
         flex-direction: column;
         align-items: center;
@@ -518,16 +580,25 @@ figure div p{
    .crespos-top{
        flex-direction: column;
    }
+   .crespos-top .crespos-right:hover .box-text{
+       top: 12em;
+   }
+
    .crespos-mid{
        flex-direction: column;
        position: relative;
        top:8em;
    }
+
    .crespos-center{
        flex-direction: column;
        position: relative;
        top: 17em;
    }
+   .crespos-center .crespos-right:hover .box-text{
+       top: 13em;
+   }
+
    .crespos-bottom{
        flex-direction: column;
        position: relative;
@@ -535,11 +606,12 @@ figure div p{
    }
 
    .crespos-left{
-       top:em;
+       top:-4em;
+       
    }
    .crespos-right{
-       right: -1em;
-       top: 10em;
+       left: -1em;
+       top: 6em;
    }
 
 }
@@ -563,6 +635,10 @@ figure div p{
 
     .container-text{
         height: 75%;
+    }
+
+    .img-crespos{
+        top: 30em;
     }
 }
 
@@ -592,14 +668,14 @@ figure div p{
     }
 
     .container-main{
-        top: 1em;
-        background-position: 35%;
-        background-size: 295%;
+        top: 0em;
+        background-position:35%;
+        background-size: 200%;
     }
 
     .container-text{
-        top: 37em;
-        height: 100%;
+        top: 34em;
+        height: 25em;
         padding: 2em;
     }
 
@@ -612,33 +688,311 @@ figure div p{
     }
     .journey-text p{
         margin-bottom: 2em;
+        font-size: 1em;
     }
 
+    .img-crespos{
+        top: 30em;
+    }
+
+    .crespos-top .crespos-left{
+        top: -5em;
+    }
+
+    .crespos-top .crespos-left .box-text{
+        z-index: 12;
+        padding-left: 2em;
+        top: 10em;
+        width: 100%;
+        height: 30em;
+        opacity: 1;
+    }
+    .crespos-top .crespos-left:hover .box-text{
+        z-index: 12;
+        padding-left: 2em;
+        top: 10em;
+        width: 100%;
+        height: 30em;
+        opacity: 1;
+    }
+    .crespos-top .crespos-left .box-text h3{
+        padding-top: 0;
+        width: 12em;
+        font-size: 1.6em;
+        margin-bottom: 1em;
+    }
+    .crespos-top .crespos-left .box-text p{
+        width: 22em;
+        text-align: left;
+        padding-top: 0;
+        font-size: 1em;
+    }
+
+    .crespos-right{
+        left: 0em; 
+    }
+
+    .crespos-top .crespos-right{
+        top: 20em;
+    }
+
+    .crespos-top .crespos-right .box-text{
+        z-index: 12;
+        top: 17em;
+        width: 100%;
+        height: 20em;
+        opacity: 1;
+    }
+    .crespos-top .crespos-right:hover .box-text{
+        z-index: 12;
+        top: 17em;
+        width: 100%;
+        height: 20em;
+        opacity: 1;
+    }
+    .crespos-top .crespos-right .box-text h3{
+        padding-top: 0;
+        padding-left: 2em;
+        padding-right: 5em;
+        font-size: 1.6em;
+        margin-bottom: 1em;
+    }
+    .crespos-top .crespos-right .box-text p{
+        padding-top: 0;
+        padding-left: 3em;
+        padding-right: 5em;
+        font-size: 1em;
+    }
+
+    .crespos-mid .crespos-left{
+        top: 4em;
+    }
+    .crespos-mid{
+
+        margin-left: 0em;
+    }
+    .crespos-mid .crespos-left .box-text{
+        z-index: 12;
+        top: 19em;
+        width: 100%;
+        height: 14em;
+        opacity: 1;
+    }
+    .crespos-mid .crespos-left:hover .box-text{
+        z-index: 12;
+        top: 19em;
+        width: 100%;
+        height: 14em;
+        opacity: 1;
+    }
+    .crespos-mid .crespos-left .box-text h3{
+        padding-top: 0;
+        padding-left: 2em;
+        padding-right: 5em;
+        font-size: 1.6em;
+        margin-bottom: 1em;
+    }
+    .crespos-mid .crespos-left .box-text p{
+        padding-top: 0;
+        padding-left: 3em;
+        padding-right: 5em;
+        font-size: 1em;
+    }
+
+
+    .crespos-mid .crespos-right{
+        top: 12em;
+    }
+    .crespos-mid .crespos-right .box-text{
+        z-index: 12;
+        top: 19em;
+        width: 100%;
+        height: 18em;
+        opacity: 1;
+    }
+    .crespos-mid .crespos-right:hover .box-text{
+        z-index: 12;
+        top: 19em;
+        width: 100%;
+        height: 18em;
+        opacity: 1;
+    }
+    .crespos-mid .crespos-right .box-text h3{
+        padding-top: 0;
+        padding-left: 2em;
+        padding-right: 5em;
+        font-size: 1.6em;
+        margin-bottom: 1em;
+    }
+    .crespos-mid .crespos-right .box-text p{
+        padding-top: 0;
+        padding-left: 3em;
+        padding-right: 5em;
+        font-size: 1em;
+    }
+
+
+    .crespos-center .crespos-left{
+        top: 3em;
+    }
+    .crespos-center{
+        margin-left: 0em;
+    }
+    .crespos-center .crespos-left .box-text{
+        z-index: 12;
+        top: 15em;
+        width: 100%;
+        height: 17em;
+        opacity: 1;
+    }
+    .crespos-center .crespos-left:hover .box-text{
+        z-index: 12;
+        top: 15em;
+        width: 100%;
+        height: 17em;
+        opacity: 1;
+    }
+    .crespos-center .crespos-left .box-text h3{
+        padding-top: 0;
+        padding-left: 2em;
+        padding-right: 5em;
+        font-size: 1.6em;
+        margin-bottom: 1em;
+    }
+    .crespos-center .crespos-left .box-text p{
+        padding-top: 0;
+        padding-left: 3em;
+        padding-right: 5em;
+        font-size: 1em;
+    }
+
+
+    .crespos-center .crespos-right{
+        top: 10em;
+    }
+    .crespos-center .crespos-right .box-text{
+        z-index: 12;
+        top: 18em;
+        width: 100%;
+        height: 15em;
+        opacity: 1;
+    }
+    .crespos-center .crespos-right:hover .box-text{
+        z-index: 12;
+        top: 18em;
+        width: 100%;
+        height: 15em;
+        opacity: 1;
+    }
+    .crespos-center .crespos-right .box-text h3{
+        padding-top: 0;
+        padding-left: 2em;
+        padding-right: 5em;
+        font-size: 1.6em;
+        margin-bottom: 1em;
+    }
+    .crespos-center .crespos-right .box-text p{
+        padding-top: 0;
+        padding-left: 3em;
+        padding-right: 5em;
+        font-size: 1em;
+    }
+
+    .crespos-bottom .crespos-left{
+        top: 1em;
+    }
+    .crespos-bottom{
+        margin-left: 0em;
+    }
+    .crespos-bottom .crespos-left .box-text{
+        z-index: 12;
+        top: 17em;
+        width: 100%;
+        height: 20em;
+        opacity: 1;
+    }
+    .crespos-bottom .crespos-left:hover .box-text{
+        z-index: 12;
+        top: 17em;
+        width: 100%;
+        height: 20em;
+        opacity: 1;
+    }
+    .crespos-bottom .crespos-left .box-text h3{
+        padding-top: 0;
+        padding-left: 2em;
+        padding-right: 5em;
+        font-size: 1.6em;
+        margin-bottom: 1em;
+    }
+    .crespos-bottom .crespos-left .box-text p{
+        padding-top: 0;
+        padding-left: 3em;
+        padding-right: 5em;
+        font-size: 1em;
+    }
+    .crespos-bottom .ondulado{
+        top: 9em;
+    }
+
+}
+
+@media (max-width:585px){
+    .container-text{
+        top: 28em;
+    }
+
+    .img-crespos{
+        top: 22em;
+    }
 }
 
 @media (max-width:563px){
+    .container-main{
+        top: -2em;
+    }
     .container-text{
-        height: 35em;
         padding-top: 0em;
     }
+
 }
 
-@media (max-width:420px){
+@media (max-width:515px){
     .container-text{
-        height: 40em;
+       height: 25em;
     }
 }
 
-@media (max-width:412px){
+@media (max-width:500px){
+    .container-text{
+        top: 26em;
+    }
+}
+
+@media (max-width:470px){
+    .main-text{
+        margin-bottom: 3em;
+    }
+
+    .container-text{
+        height: 30em;
+    }
+
+    .contain-crespos{
+        width: 250px;
+        height: 300px;
+    }
+}
+
+@media (max-width:435px){
 
     .container-main{
-        top: -3em;
         background-position:25%;
         background-size: 200%;
     }
 
     .container-text{
-        top: 22em;
+        top: 24em;
     }
 
     .tricks {
@@ -653,4 +1007,19 @@ figure div p{
        left: 4em;
     }
 
+}
+
+@media (max-width:401px){
+    .container-text{
+        height: 33em;
+    }
+}
+
+@media (max-width:381px){
+    .container-main{
+        top: -3em;
+    }
+    .container-text{
+        top: 21em;
+    }
 }
