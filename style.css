@@ -701,7 +701,6 @@ figure div p{
 
     .crespos-top .crespos-left .box-text{
         z-index: 12;
-        padding-left: 2em;
         top: 10em;
         width: 100%;
         height: 30em;
@@ -709,7 +708,6 @@ figure div p{
     }
     .crespos-top .crespos-left:hover .box-text{
         z-index: 12;
-        padding-left: 2em;
         top: 10em;
         width: 100%;
         height: 30em;
@@ -717,12 +715,18 @@ figure div p{
     }
     .crespos-top .crespos-left .box-text h3{
         padding-top: 0;
-        width: 12em;
+        margin: 0 auto;
+        position: relative;
+        left: -2em;
+        width: 10em;
         font-size: 1.6em;
         margin-bottom: 1em;
     }
     .crespos-top .crespos-left .box-text p{
         width: 22em;
+        margin: 0 auto;
+        position: relative;
+        left: -0.5em;
         text-align: left;
         padding-top: 0;
         font-size: 1em;
@@ -733,107 +737,120 @@ figure div p{
     }
 
     .crespos-top .crespos-right{
-        top: 20em;
+        top: 17em;
     }
 
     .crespos-top .crespos-right .box-text{
         z-index: 12;
         top: 17em;
         width: 100%;
-        height: 20em;
+        height: 30em;
         opacity: 1;
     }
     .crespos-top .crespos-right:hover .box-text{
         z-index: 12;
         top: 17em;
         width: 100%;
-        height: 20em;
+        height: 30em;
         opacity: 1;
     }
     .crespos-top .crespos-right .box-text h3{
         padding-top: 0;
-        padding-left: 2em;
-        padding-right: 5em;
+        margin: 0 auto;
+        position: relative;
+        left: -1.8em;
+        width: 10em;
         font-size: 1.6em;
         margin-bottom: 1em;
     }
     .crespos-top .crespos-right .box-text p{
+        width: 22em;
+        margin: 0 auto;
+        position: relative;
+        left: -0.5em;
+        text-align: left;
         padding-top: 0;
-        padding-left: 3em;
-        padding-right: 5em;
         font-size: 1em;
     }
 
     .crespos-mid .crespos-left{
-        top: 4em;
+        top: 28em;
     }
     .crespos-mid{
-
         margin-left: 0em;
     }
     .crespos-mid .crespos-left .box-text{
         z-index: 12;
-        top: 19em;
+        top: 15em;
         width: 100%;
-        height: 14em;
+        height: 18em;
         opacity: 1;
     }
     .crespos-mid .crespos-left:hover .box-text{
         z-index: 12;
-        top: 19em;
+        top: 15em;
         width: 100%;
-        height: 14em;
+        height: 18em;
         opacity: 1;
     }
     .crespos-mid .crespos-left .box-text h3{
         padding-top: 0;
-        padding-left: 2em;
-        padding-right: 5em;
+        margin: 0 auto;
+        position: relative;
+        left: -2.5em;
+        width: 8em;
         font-size: 1.6em;
         margin-bottom: 1em;
     }
     .crespos-mid .crespos-left .box-text p{
-        padding-top: 0;
-        padding-left: 3em;
-        padding-right: 5em;
+        width: 22em;
+        margin: 0 auto;
+        position: relative;
+        left: -0.2em;
+        text-align: left;
         font-size: 1em;
     }
 
 
     .crespos-mid .crespos-right{
-        top: 12em;
+        top: 43em;
     }
     .crespos-mid .crespos-right .box-text{
         z-index: 12;
-        top: 19em;
+        top: 18em;
         width: 100%;
-        height: 18em;
+        height: 19em;
         opacity: 1;
     }
     .crespos-mid .crespos-right:hover .box-text{
         z-index: 12;
-        top: 19em;
+        top: 18em;
         width: 100%;
-        height: 18em;
+        height: 19em;
         opacity: 1;
     }
     .crespos-mid .crespos-right .box-text h3{
         padding-top: 0;
-        padding-left: 2em;
-        padding-right: 5em;
+        margin: 0 auto;
+        position: relative;
+        left: -0.5em;
+        width: 13em;
         font-size: 1.6em;
         margin-bottom: 1em;
     }
     .crespos-mid .crespos-right .box-text p{
+        width: 22em;
+        position: relative;
+        left: -0.5em;
+        text-align: left;
+        margin: 0 auto;
         padding-top: 0;
-        padding-left: 3em;
-        padding-right: 5em;
         font-size: 1em;
     }
 
 
     .crespos-center .crespos-left{
-        top: 3em;
+        top: 42em;
     }
     .crespos-center{
         margin-left: 0em;
@@ -842,64 +859,74 @@ figure div p{
         z-index: 12;
         top: 15em;
         width: 100%;
-        height: 17em;
+        height: 22em;
         opacity: 1;
     }
     .crespos-center .crespos-left:hover .box-text{
         z-index: 12;
         top: 15em;
         width: 100%;
-        height: 17em;
+        height: 22em;
         opacity: 1;
     }
     .crespos-center .crespos-left .box-text h3{
         padding-top: 0;
-        padding-left: 2em;
-        padding-right: 5em;
+        margin: 0 auto;
+        position: relative;
+        left: -1.7em;
+        width: 10em;
         font-size: 1.6em;
         margin-bottom: 1em;
     }
     .crespos-center .crespos-left .box-text p{
+        width: 22em;
+        margin: 0 auto;
+        position: relative;
+        left: -0.5em;
+        text-align: left;
         padding-top: 0;
-        padding-left: 3em;
-        padding-right: 5em;
         font-size: 1em;
     }
 
 
     .crespos-center .crespos-right{
-        top: 10em;
+        top: 61em;
     }
     .crespos-center .crespos-right .box-text{
         z-index: 12;
         top: 18em;
         width: 100%;
-        height: 15em;
+        height: 18.5em;
         opacity: 1;
     }
     .crespos-center .crespos-right:hover .box-text{
         z-index: 12;
         top: 18em;
         width: 100%;
-        height: 15em;
+        height: 18.5em;
         opacity: 1;
     }
     .crespos-center .crespos-right .box-text h3{
         padding-top: 0;
-        padding-left: 2em;
-        padding-right: 5em;
+        margin: 0 auto;
+        position: relative;
+        left: -1.8em;
+        width: 10em;
         font-size: 1.6em;
         margin-bottom: 1em;
     }
     .crespos-center .crespos-right .box-text p{
+        width: 22em;
+        position: relative;
+        left: -0.5em;
+        margin: 0 auto;
+        text-align: left;
         padding-top: 0;
-        padding-left: 3em;
-        padding-right: 5em;
         font-size: 1em;
     }
 
     .crespos-bottom .crespos-left{
-        top: 1em;
+        top: 62em;
     }
     .crespos-bottom{
         margin-left: 0em;
@@ -908,31 +935,36 @@ figure div p{
         z-index: 12;
         top: 17em;
         width: 100%;
-        height: 20em;
+        height: 17em;
         opacity: 1;
     }
     .crespos-bottom .crespos-left:hover .box-text{
         z-index: 12;
         top: 17em;
         width: 100%;
-        height: 20em;
+        height: 17em;
         opacity: 1;
     }
     .crespos-bottom .crespos-left .box-text h3{
         padding-top: 0;
-        padding-left: 2em;
-        padding-right: 5em;
+        margin: 0 auto;
+        position: relative;
+        left: -1.8em;
+        width: 10em;
         font-size: 1.6em;
         margin-bottom: 1em;
     }
     .crespos-bottom .crespos-left .box-text p{
+        width: 22em;
+        position: relative;
+        left: -0.5em;
+        margin: 0 auto;
+        text-align: left;
         padding-top: 0;
-        padding-left: 3em;
-        padding-right: 5em;
         font-size: 1em;
     }
     .crespos-bottom .ondulado{
-        top: 9em;
+        top: 72em;
     }
 
 }
@@ -978,9 +1010,8 @@ figure div p{
         height: 30em;
     }
 
-    .contain-crespos{
-        width: 250px;
-        height: 300px;
+    .img-crespos{
+        top: 25em;
     }
 }
 
@@ -1012,6 +1043,15 @@ figure div p{
 @media (max-width:401px){
     .container-text{
         height: 33em;
+    }
+}
+
+@media (max-width:399px){
+    .contain-crespos{
+        width: 320px;
+    }
+    .contain-crespos img{
+        width: 320px;
     }
 }
 
