@@ -199,14 +199,14 @@ main{
     z-index: 12;
     top: 14em;
     width: 350px;
-    height: 250px;
+    height: 260px;
     opacity: 1;
 }
 .crespos-top .crespos-right:hover .box-text{
     z-index: 12;
     top: 14em;
     width: 350px;
-    height: 230px;
+    height: 260px;
     opacity: 1;
 }
 
@@ -220,7 +220,7 @@ main{
     z-index: 12;
     top: 15em;
     width: 300px;
-    height: 200px;
+    height: 230px;
     opacity: 1;
 }
 .crespos-mid .crespos-right:hover .box-text{
@@ -241,14 +241,14 @@ main{
     z-index: 12;
     top: 14em;
     width: 350px;
-    height: 210px;
+    height: 250px;
     opacity: 1;
 }
 .crespos-center .crespos-right:hover .box-text{
     z-index: 12;
     top: 18em;
     width: 350px;
-    height: 185px;
+    height: 195px;
     opacity: 1;
 }
 
@@ -340,6 +340,125 @@ figure div p{
     position: absolute; 
     top: 2em;
 }
+
+.gallery{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    border: solid blue;
+    top: 185em;
+    display: flex;
+}
+
+.gallery-left{
+    border: solid black;
+    width: 50%;
+    display: flex;
+    height: 100%;
+}
+.gallery-left img{
+    width: 20%;
+}
+
+.gallery-right{
+    border: solid red;
+    width: 50%;
+    display: flex;
+    height: 100%;
+}
+.gallery-right img{
+    width: 20%;
+}
+
+footer{ 
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #9767A9;
+    width: 100%;
+    height: 6em;
+    max-width: 1990px;
+    position: relative;
+    top: 180em;
+  }
+
+.contain-foot{
+    width: 100%;
+    height: 100%;
+    padding-top: 1em;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-bottom: 1em;
+    display: flex;
+    align-items: center;
+    background: #9767A9;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.foot-CopyR{
+    width: 70%;
+    height: 50%;
+}
+.foot-CopyR p{
+    font-size: 0.7em;
+}
+
+.nav-foot{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-foot figure{
+    display: flex;
+    width: 30%;
+}
+.nav-foot figure img{
+    width: 2em;
+}
+.nav-foot figure p{
+    font-size: 0.9em;
+}
+
+.left-row{
+    transition: 1s all;
+}
+.left-row:hover{
+    background-color: rgb(204, 137, 220);
+    opacity: 0.8;
+}
+.left-row p{
+    padding-top: 6px;
+}
+
+.up-row{
+    transition: 1s all;
+}
+.up-row:hover{
+    background-color: rgb(204, 137, 220);
+    opacity: 0.8;
+}
+.up-row p{
+    padding-left: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.right-row{
+    transition: 1s all;
+}
+.right-row:hover{
+    background-color: rgb(204, 137, 220);
+    opacity: 0.8;
+}
+.right-row p{
+    padding-left: 25px;
+    padding-top: 6px;
+    text-align: center;
+}
+
+
 
 @media (min-width: 2000px){
 
@@ -582,27 +701,42 @@ figure div p{
    }
    .crespos-top .crespos-right:hover .box-text{
        top: 12em;
+       height: 20em;
    }
 
    .crespos-mid{
        flex-direction: column;
        position: relative;
-       top:8em;
+       top:13em;
    }
+   .crespos-mid .crespos-left:hover .box-text{
+    top: 14em;
+    height: 15em;
+    }
+    .crespos-mid .crespos-right:hover .box-text{
+        top: 19em;
+        height: 13em;
+    }
 
    .crespos-center{
        flex-direction: column;
        position: relative;
-       top: 17em;
+       top: 25em;
    }
+   .crespos-center .crespos-left:hover .box-text{
+    top: 13em;
+    height: 16em;
+    }
+
    .crespos-center .crespos-right:hover .box-text{
-       top: 13em;
+       top: 18em;
+       height: 15em;
    }
 
    .crespos-bottom{
        flex-direction: column;
        position: relative;
-       top: 24em;
+       top: 40em;
    }
 
    .crespos-left{
