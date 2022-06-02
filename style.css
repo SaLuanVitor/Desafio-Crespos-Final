@@ -101,7 +101,6 @@ input{
 
 main{
     width: 100%;
-    height: 100vh;
     position: relative;
 }
 
@@ -343,35 +342,110 @@ figure div p{
 
 .gallery{
     width: 100%;
-    height: 50%;
+    height: 100%;
     position: absolute;
-    border: solid blue;
     top: 185em;
     display: flex;
+    margin: 0 auto;
 }
 
 .gallery-left{
-    border: solid black;
-    width: 50%;
+    width: 45%;
+    height: 100%;
     display: flex;
     height: 100%;
+    margin-left: -2em;
 }
-.gallery-left img{
-    width: 20%;
+
+.gallery-prince{
+    flex-direction: column;
+    padding-left: 4em;
+    margin-left: 3.5em;
 }
+
+.Rei{
+    width: 250px;
+    height: 405px;
+}
+
+.Gloria-Maria{
+    width: 250px;
+    height: 200px;
+}
+
+.gallery-sec{
+    display: flex;
+    flex-direction: column;
+}
+.Cachos-Ruivos{
+    width: 200px;
+    height: 200px;
+}
+
+.Killmonger{
+    width: 200px;
+    height: 200px;
+}
+
+.Moça-foto{
+    width: 200px;
+    height: 200px;
+}
+
 
 .gallery-right{
-    border: solid red;
-    width: 50%;
+    width: 45%;
+    height: 100%;
     display: flex;
     height: 100%;
-}
-.gallery-right img{
-    width: 20%;
+    
 }
 
-footer{ 
+.gallery-R-top{
     display: flex;
+    flex-direction: column;
+    margin-right: 0.5em;
+}
+.cigarro{
+    width: 200px;
+    height: 405px;
+    margin-bottom: 0.3em;
+}
+
+.Snoopydog{
+    width: 200px;
+    height: 195px;
+}
+
+.gallery-R-mid{
+    margin-right: 0.5em;
+}
+.cabelo-grande{
+    width: 250px;
+    height: 605px;
+}
+
+.gallery-R-bott{
+    display: flex;
+    flex-direction: column;
+}
+
+.trançasA{
+    width: 200px;
+    height: 195px;
+    margin-bottom: 0.3em;
+}
+
+.carinhoB{
+    width: 200px;
+    height: 405px;
+}
+
+
+
+
+footer{ 
+    display: none;
     flex-wrap: wrap;
     background-color: #9767A9;
     width: 100%;
@@ -512,6 +586,83 @@ footer{
     }
 }
 
+@media (max-width:1269px){
+    .gallery-left{
+        margin-left: -5em;
+    }
+    .gallery-right{
+        margin-left: 2em;
+    }
+}
+
+@media (max-width:1205px){
+    .gallery{
+        flex-direction: column;
+        align-items: center;
+        height: 200%;
+        margin-left: -9em;
+    }
+
+    .gallery-left{
+        margin-left: -10em;
+    }
+    
+    .gallery-prince{
+        margin-left:2em;
+        margin-right: 2em;
+    }
+    
+    .Rei{
+        width: 350px;
+        height: 405px;
+    }
+
+    .Gloria-Maria{
+        width: 350px;
+        height: 200px;
+    }
+
+    .gallery-sec{
+      margin-left: -1em;
+    }
+    .Cachos-Ruivos{
+        width: 300px;
+        height: 200px;
+    }
+
+    .Killmonger{
+        width: 300px;
+        height: 200px;
+    }
+
+    .Moça-foto{
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media (max-width:1200px){
+    .crespos-left{
+        margin: 0 auto;
+        left: 0;
+    }
+    .crespos-right{
+        margin: 0 auto;
+        left: -1em; 
+    }
+
+    .crespos-top{
+        margin-bottom: 10em;
+    }
+    .crespos-mid{
+        margin-bottom: 12em;
+    }
+    .crespos-center{
+        margin-bottom: 10em;
+    }
+
+}
+
 @media (max-width:1190px){
     .header-nav{
         padding: 2%;
@@ -541,7 +692,6 @@ footer{
 
     .crespos-left{
         top: -1em;
-        left: 7em;
     }
     .crespos-right{
         top: 8em;
@@ -594,28 +744,6 @@ footer{
         width: 300px;
         height: 190px;
     }
-}
-
-@media (max-width:1200px){
-    .crespos-left{
-        margin: 0 auto;
-        left: 0;
-    }
-    .crespos-right{
-        margin: 0 auto;
-        left: -1em; 
-    }
-
-    .crespos-top{
-        margin-bottom: 10em;
-    }
-    .crespos-mid{
-        margin-bottom: 12em;
-    }
-    .crespos-center{
-        margin-bottom: 10em;
-    }
-
 }
 
 @media (max-width:1080px){
