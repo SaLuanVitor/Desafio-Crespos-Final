@@ -342,7 +342,6 @@ figure div p{
 
 .gallery{
     width: 100%;
-    height: 100%;
     position: absolute;
     top: 185em;
     display: flex;
@@ -351,7 +350,6 @@ figure div p{
 
 .gallery-left{
     width: 45%;
-    height: 100%;
     display: flex;
     height: 100%;
     margin-left: -2em;
@@ -445,14 +443,14 @@ figure div p{
 
 
 footer{ 
-    display: none;
+    display: flex;
     flex-wrap: wrap;
     background-color: #9767A9;
     width: 100%;
     height: 6em;
     max-width: 1990px;
     position: relative;
-    top: 180em;
+    top: 70em;
   }
 
 .contain-foot{
@@ -470,12 +468,19 @@ footer{
     font-weight: 600;
 }
 
+.img-foot{
+    display: none;
+}
+
 .foot-CopyR{
     width: 70%;
     height: 50%;
 }
 .foot-CopyR p{
     font-size: 0.7em;
+}
+.foot-CopyR h4{
+    display: none;
 }
 
 .nav-foot{
@@ -496,6 +501,7 @@ footer{
 }
 
 .left-row{
+    cursor: pointer;
     transition: 1s all;
 }
 .left-row:hover{
@@ -521,6 +527,7 @@ footer{
 
 .right-row{
     transition: 1s all;
+    cursor: pointer;
 }
 .right-row:hover{
     background-color: rgb(204, 137, 220);
@@ -599,7 +606,6 @@ footer{
     .gallery{
         flex-direction: column;
         align-items: center;
-        height: 200%;
         margin-left: -9em;
     }
 
@@ -639,6 +645,10 @@ footer{
         width: 300px;
         height: 200px;
     }
+
+    footer{
+        top: 110em;
+    }
 }
 
 @media (max-width:1200px){
@@ -659,6 +669,10 @@ footer{
     }
     .crespos-center{
         margin-bottom: 10em;
+    }
+
+    footer{
+        top:120em;
     }
 
 }
@@ -744,6 +758,10 @@ footer{
         width: 300px;
         height: 190px;
     }
+
+    footer{
+        top: 130em;
+    }
 }
 
 @media (max-width:1080px){
@@ -803,10 +821,12 @@ footer{
     .container-main{
         flex-direction: column;
     }
+
     .tricks{
        top: 3em;
        left: 0.5em;
     }
+
     .sab{
         top: 14em;
         left: 1.5em;
@@ -855,7 +875,6 @@ footer{
     top: 13em;
     height: 16em;
     }
-
    .crespos-center .crespos-right:hover .box-text{
        top: 18em;
        height: 15em;
@@ -874,6 +893,14 @@ footer{
    .crespos-right{
        left: -1em;
        top: 6em;
+   }
+
+   .gallery{
+       top: 285em;
+   }
+
+   footer{
+       top:170em
    }
 
 }
@@ -902,6 +929,92 @@ footer{
     .img-crespos{
         top: 30em;
     }
+
+    .gallery{
+        left: -3.5em;
+    }
+
+    .contain-foot{
+        padding-left: 2em;
+    }
+
+    .foot-CopyR p{
+        font-size: 0.5em;
+    }
+
+    .nav-foot {
+        width: 85%;
+    }
+}
+
+@media (max-width:665px){
+    
+    .gallery-left{
+        margin-left: 1em;
+    }
+
+    .Rei{
+        width: 250px;
+        height: 405px;
+    }
+
+    .Gloria-Maria{
+        width: 250px;
+        height: 200px;
+    }
+
+    .gallery-sec{
+      margin-left: -1em;
+    }
+
+    .Cachos-Ruivos{
+        width: 200px;
+        height: 200px;
+    }
+
+    .Killmonger{
+        width: 200px;
+        height: 200px;
+    }
+
+    .Moça-foto{
+        width: 200px;
+        height: 200px;
+    }
+
+
+    .gallery-right{
+        margin-left: 13em;
+        
+    }
+
+    .cigarro{
+        width: 150px;
+        height: 405px;
+        margin-bottom: 0.3em;
+    }
+
+    .Snoopydog{
+        width: 150px;
+        height: 195px;
+    }
+
+    .cabelo-grande{
+        width: 175px;
+        height: 605px;
+    }
+
+    .trançasA{
+        width: 125px;
+        height: 195px;
+        margin-bottom: 0.3em;
+    }
+
+    .carinhoB{
+        width: 125px;
+        height: 405px;
+    }
+
 }
 
 @media (max-width:655px){
@@ -1229,6 +1342,43 @@ footer{
         top: 72em;
     }
 
+    .gallery{
+        top: 350em;
+    }
+
+    footer{
+        top: 240em;
+    }
+
+    .contain-foot{
+        background: white;
+        color: black;
+        display: inline;
+    }
+
+    .foot-CopyR h4{
+        display: flex;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+        font-size: small;
+    }
+
+    .img-foot{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 1em;
+    }
+    .redes-foot img{
+        margin-right: 1em;
+        cursor: pointer;
+    }
+
+    .nav-foot{
+        display: none;
+    }
+
+
 }
 
 @media (max-width:585px){
@@ -1255,11 +1405,19 @@ footer{
     .container-text{
        height: 25em;
     }
+
+    .gallery{
+        left: -5em;
+    }
 }
 
 @media (max-width:500px){
     .container-text{
         top: 26em;
+    }
+    
+    .gallery{
+        left: -6em;
     }
 }
 
@@ -1274,6 +1432,65 @@ footer{
 
     .img-crespos{
         top: 25em;
+    }
+}
+
+@media (max-width: 454px){
+
+    .gallery{
+        left: -3em;
+    }
+
+    .Rei{
+        width: 200px;
+        height: 405px;
+    }
+
+    .Gloria-Maria{
+        width: 200px;
+        height: 200px;
+    }
+
+    .Cachos-Ruivos{
+        width: 150px;
+        height: 200px;
+    }
+
+    .Killmonger{
+        width: 150px;
+        height: 200px;
+    }
+
+    .Moça-foto{
+        width: 150px;
+        height: 200px;
+    }
+
+    .cigarro{
+        width: 125px;
+        height: 405px;
+        margin-bottom: 0.3em;
+    }
+
+    .Snoopydog{
+        width: 125px;
+        height: 195px;
+    }
+
+    .cabelo-grande{
+        width: 125px;
+        height: 605px;
+    }
+
+    .trançasA{
+        width: 100px;
+        height: 195px;
+        margin-bottom: 0.3em;
+    }
+
+    .carinhoB{
+        width: 100px;
+        height: 405px;
     }
 }
 
@@ -1314,6 +1531,10 @@ footer{
     }
     .contain-crespos img{
         width: 320px;
+    }
+
+    .gallery{
+        left: -4em;
     }
 }
 
