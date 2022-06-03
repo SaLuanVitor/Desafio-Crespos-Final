@@ -541,36 +541,7 @@ footer{
 
 
 
-@media (min-width: 2000px){
 
-    .img-crespos{
-        height: 200%;
-    }
-    .crespos-top{
-        position: relative;
-    }
-    .crespos-mid{
-        position: relative;
-        top: -60em;
-    }
-    .crespos-center{
-        position: relative;
-        top: -120em;
-    }
-    .crespos-bottom{
-        position: relative;
-        top: -180em;
-    }
-    
-    .crespos-left{
-        left: 9em;
-        top: -8em;
-    }
-    .crespos-right{
-        right: 13em;
-        top: 0;
-    }
-}
 
 @media (min-width:1630px){
     .container-main{
@@ -921,10 +892,6 @@ footer{
 }
 
 @media (max-width:777px){
-
-    .container-text{
-        height: 75%;
-    }
 
     .img-crespos{
         top: 30em;
