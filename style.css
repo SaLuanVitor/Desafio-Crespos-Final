@@ -671,6 +671,10 @@ footer {
         margin-bottom: 10em;
     }
 
+    .gallery {
+        top: 179em;
+    }
+
     footer {
         top: 120em;
     }
@@ -770,8 +774,12 @@ footer {
         height: 190px;
     }
 
+    .gallery {
+        top: 165em;
+    }
+
     footer {
-        top: 130em;
+        top: 110em;
     }
 }
 
@@ -903,7 +911,11 @@ footer {
     .crespos-bottom {
         flex-direction: column;
         position: relative;
-        top: 42em;
+        top: 50em;
+    }
+
+    .ondulado {
+        top: -2em;
     }
 
     .crespos-left {
@@ -1347,7 +1359,7 @@ footer {
     }
 
     .crespos-bottom .crespos-left {
-        top: 62em;
+        top: 57em;
     }
 
     .crespos-bottom {
@@ -1395,11 +1407,11 @@ footer {
     }
 
     .gallery {
-        top: 342em;
+        top: 357em;
     }
 
     footer {
-        top: 226em;
+        top: 238em;
     }
 
     .contain-foot {
@@ -1512,7 +1524,11 @@ footer {
     }
 
     .crespos-center {
-        top: 28em;
+        top: 32em;
+    }
+
+    .crespos-bottom {
+        top: 47em;
     }
 
     .gallery {
