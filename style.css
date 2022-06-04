@@ -1,26 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playfair+Display+SC&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
 }
 
-body{
+body {
     max-width: 1920px;
     margin: 0 auto;
 }
 
-header{
+header {
     width: 100%;
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    
+
 }
 
-.fixed-nav{
+.fixed-nav {
     max-width: 1920px;
     position: fixed;
     top: 0;
@@ -29,7 +30,7 @@ header{
     z-index: 9999;
 }
 
-.header-nav{
+.header-nav {
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -37,21 +38,22 @@ header{
     display: flex;
 }
 
-.menu{
+.menu {
     display: none;
 }
 
-.logo{
+.logo {
     width: 5em;
     height: 3em;
 }
-.logo img{
+
+.logo img {
     width: 70px;
     height: 45px;
     cursor: pointer;
 }
 
-.navegation-options ul{
+.navegation-options ul {
     font-size: 12px;
     display: flex;
     margin-left: 3em;
@@ -59,25 +61,27 @@ header{
     height: 50px;
     align-items: center;
 }
-.navegation-options ul li{
+
+.navegation-options ul li {
     margin-left: 4em;
     color: #9767A9;
     cursor: pointer;
     transition: 0.2s all;
 }
-.navegation-options ul li:hover{
+
+.navegation-options ul li:hover {
     font-weight: bolder;
     transform: scale(1.2);
 }
 
-.nav-search{
+.nav-search {
     width: 30%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-input{
+input {
     background-image: url(Image/Layer_3.svg);
     background-repeat: no-repeat;
     background-size: 9%;
@@ -89,29 +93,30 @@ input{
     border: solid #9767A9 2px;
 }
 
-.redes{
+.redes {
     display: flex;
 }
-.redes img{
+
+.redes img {
     width: 30px;
     height: 50px;
     margin-left: 1.5em;
     cursor: pointer;
 }
 
-main{
+main {
     width: 100%;
     position: relative;
 }
 
-.container-main{
+.container-main {
     background-image: url(Image/cabeludo.png);
     background-repeat: no-repeat;
     background-position: center 0;
     background-size: cover;
     width: 100%;
     height: 20em;
-    color:white;
+    color: white;
     justify-content: space-evenly;
     font-size: 30px;
     display: flex;
@@ -119,7 +124,7 @@ main{
     top: 2em;
 }
 
-.tricks{
+.tricks {
     margin: auto 0;
     height: 3.5em;
     width: 5em;
@@ -129,7 +134,7 @@ main{
     top: 5em;
 }
 
-.sab{
+.sab {
     margin: auto 0;
     width: 13em;
     height: 2.5em;
@@ -140,7 +145,7 @@ main{
     font-size: 25px;
 }
 
-.container-text{
+.container-text {
     color: white;
     position: absolute;
     top: 660px;
@@ -153,7 +158,7 @@ main{
     padding-left: 5em;
 }
 
-.main-text{
+.main-text {
     width: 50%;
     height: 6em;
     text-align: left;
@@ -161,7 +166,7 @@ main{
     font-family: 'Playfair Display SC', serif;
 }
 
-.journey-text{
+.journey-text {
     width: 40%;
     margin-left: 1em;
     display: flex;
@@ -169,12 +174,13 @@ main{
     font-size: 1.1em;
     flex-direction: column;
 }
-.journey-text p{
+
+.journey-text p {
     flex-wrap: wrap;
     font-family: 'Montserrat', sans-serif;
 }
 
-.img-crespos{
+.img-crespos {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -183,25 +189,19 @@ main{
     height: 100%;
     justify-content: space-between;
 }
-.img-crespos figure{
-   width: 100%;
+
+.img-crespos figure {
+    width: 100%;
 }
 
-.crespos-top{
+.crespos-top {
     width: 100%;
     display: flex;
     text-align: center;
     margin-bottom: 15em;
 }
 
-.crespos-top .crespos-left:hover .box-text{
-    z-index: 12;
-    top: 14em;
-    width: 350px;
-    height: 260px;
-    opacity: 1;
-}
-.crespos-top .crespos-right:hover .box-text{
+.crespos-top .crespos-left:hover .box-text {
     z-index: 12;
     top: 14em;
     width: 350px;
@@ -209,20 +209,30 @@ main{
     opacity: 1;
 }
 
-.crespos-mid{
+.crespos-top .crespos-right:hover .box-text {
+    z-index: 12;
+    top: 14em;
+    width: 350px;
+    height: 260px;
+    opacity: 1;
+}
+
+.crespos-mid {
     width: 100%;
     display: flex;
     text-align: center;
     margin-bottom: 13em;
 }
-.crespos-mid .crespos-left:hover .box-text{
+
+.crespos-mid .crespos-left:hover .box-text {
     z-index: 12;
     top: 15em;
     width: 300px;
     height: 230px;
     opacity: 1;
 }
-.crespos-mid .crespos-right:hover .box-text{
+
+.crespos-mid .crespos-right:hover .box-text {
     z-index: 12;
     top: 19em;
     width: 350px;
@@ -230,20 +240,22 @@ main{
     opacity: 1;
 }
 
-.crespos-center{
+.crespos-center {
     width: 100%;
     display: flex;
     text-align: center;
     margin-bottom: 13em;
 }
-.crespos-center .crespos-left:hover .box-text{
+
+.crespos-center .crespos-left:hover .box-text {
     z-index: 12;
     top: 14em;
     width: 350px;
     height: 250px;
     opacity: 1;
 }
-.crespos-center .crespos-right:hover .box-text{
+
+.crespos-center .crespos-right:hover .box-text {
     z-index: 12;
     top: 18em;
     width: 350px;
@@ -251,12 +263,13 @@ main{
     opacity: 1;
 }
 
-.crespos-bottom{
+.crespos-bottom {
     width: 100%;
     display: flex;
     text-align: center;
 }
-.crespos-bottom .crespos-left:hover .box-text{
+
+.crespos-bottom .crespos-left:hover .box-text {
     z-index: 12;
     top: 15em;
     width: 350px;
@@ -265,7 +278,7 @@ main{
 }
 
 
-.crespos-left{
+.crespos-left {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -274,7 +287,7 @@ main{
     top: -3em;
 }
 
-.crespos-right{
+.crespos-right {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -284,7 +297,7 @@ main{
     top: 10em;
 }
 
-.box-text{
+.box-text {
     background-color: #9767A9;
     color: white;
     position: absolute;
@@ -299,7 +312,7 @@ main{
     transition: 1.8s all;
 }
 
-div h3{
+div h3 {
     font-family: 'Playfair Display', 'Black Roman';
     font-size: 1.3em;
     font-weight: 600;
@@ -308,12 +321,12 @@ div h3{
     width: 100%;
 }
 
-h3 .number{
+h3 .number {
     font-size: 1.5em;
     font-family: 'Playfair Display SC';
 }
 
-figure div p{
+figure div p {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.7em;
     height: 14em;
@@ -321,26 +334,27 @@ figure div p{
 }
 
 
-.contain-crespos{
+.contain-crespos {
     width: 400px;
     height: 320px;
     object-fit: contain;
     z-index: 10;
 }
-.contain-crespos img{
+
+.contain-crespos img {
     width: 900px;
     height: 320px;
     object-fit: contain;
     z-index: 10;
 }
 
-.ondulado{
+.ondulado {
     width: 50%;
-    position: absolute; 
+    position: absolute;
     top: 2em;
 }
 
-.gallery{
+.gallery {
     width: 100%;
     position: absolute;
     top: 185em;
@@ -348,101 +362,102 @@ figure div p{
     margin: 0 auto;
 }
 
-.gallery-left{
+.gallery-left {
     width: 45%;
     display: flex;
     height: 100%;
     margin-left: -2em;
 }
 
-.gallery-prince{
+.gallery-prince {
     flex-direction: column;
     padding-left: 4em;
     margin-left: 3.5em;
 }
 
-.Rei{
+.Rei {
     width: 250px;
     height: 405px;
 }
 
-.Gloria-Maria{
+.Gloria-Maria {
     width: 250px;
     height: 200px;
 }
 
-.gallery-sec{
+.gallery-sec {
     display: flex;
     flex-direction: column;
 }
-.Cachos-Ruivos{
+
+.Cachos-Ruivos {
     width: 200px;
     height: 200px;
 }
 
-.Killmonger{
+.Killmonger {
     width: 200px;
     height: 200px;
 }
 
-.Moça-foto{
+.Moça-foto {
     width: 200px;
     height: 200px;
 }
 
 
-.gallery-right{
+.gallery-right {
     width: 45%;
     height: 100%;
     display: flex;
     height: 100%;
-    
+
 }
 
-.gallery-R-top{
+.gallery-R-top {
     display: flex;
     flex-direction: column;
     margin-right: 0.5em;
 }
-.cigarro{
+
+.cigarro {
     width: 200px;
     height: 405px;
     margin-bottom: 0.3em;
 }
 
-.Snoopydog{
+.Snoopydog {
     width: 200px;
     height: 195px;
 }
 
-.gallery-R-mid{
+.gallery-R-mid {
     margin-right: 0.5em;
 }
-.cabelo-grande{
+
+.cabelo-grande {
     width: 250px;
     height: 605px;
 }
 
-.gallery-R-bott{
+.gallery-R-bott {
     display: flex;
     flex-direction: column;
 }
 
-.trançasA{
+.trançasA {
     width: 200px;
     height: 195px;
     margin-bottom: 0.3em;
 }
 
-.carinhoB{
+.carinhoB {
     width: 200px;
     height: 405px;
 }
 
 
-
-
-footer{ 
+footer {
     display: flex;
     flex-wrap: wrap;
     background-color: #9767A9;
@@ -451,9 +466,9 @@ footer{
     max-width: 1990px;
     position: relative;
     top: 70em;
-  }
+}
 
-.contain-foot{
+.contain-foot {
     width: 100%;
     height: 100%;
     padding-top: 1em;
@@ -468,88 +483,96 @@ footer{
     font-weight: 600;
 }
 
-.img-foot{
+.img-foot {
     display: none;
 }
 
-.foot-CopyR{
+.foot-CopyR {
     width: 70%;
     height: 50%;
 }
-.foot-CopyR p{
+
+.foot-CopyR p {
     font-size: 0.7em;
 }
-.foot-CopyR h4{
+
+.foot-CopyR h4 {
     display: none;
 }
 
-.nav-foot{
+.nav-foot {
     width: 40%;
     height: 100%;
     display: flex;
     justify-content: space-evenly;
 }
-.nav-foot figure{
+
+.nav-foot figure {
     display: flex;
     width: 30%;
 }
-.nav-foot figure img{
+
+.nav-foot figure img {
     width: 2em;
 }
-.nav-foot figure p{
+
+.nav-foot figure p {
     font-size: 0.9em;
 }
 
-.left-row{
+.left-row {
     cursor: pointer;
     transition: 1s all;
 }
-.left-row:hover{
+
+.left-row:hover {
     background-color: rgb(204, 137, 220);
     opacity: 0.8;
 }
-.left-row p{
+
+.left-row p {
     padding-top: 6px;
 }
 
-.up-row{
+.up-row {
     transition: 1s all;
 }
-.up-row:hover{
+
+.up-row:hover {
     background-color: rgb(204, 137, 220);
     opacity: 0.8;
 }
-.up-row p{
+
+.up-row p {
     padding-left: 5px;
     padding-top: 5px;
     text-align: center;
 }
 
-.right-row{
+.right-row {
     transition: 1s all;
     cursor: pointer;
 }
-.right-row:hover{
+
+.right-row:hover {
     background-color: rgb(204, 137, 220);
     opacity: 0.8;
 }
-.right-row p{
+
+.right-row p {
     padding-left: 25px;
     padding-top: 6px;
     text-align: center;
 }
 
-
-
-
-
-@media (min-width:1630px){
-    .container-main{
+@media (min-width:1630px) {
+    .container-main {
         width: 100%;
         height: 22em;
         top: 0em;
     }
-    .tricks{
+
+    .tricks {
         margin: auto 0;
         height: 3.5em;
         width: 5em;
@@ -558,354 +581,384 @@ footer{
         left: 5em;
         top: 6em;
     }
-    .sab{
+
+    .sab {
         right: 10em;
         top: 12.5em;
     }
 }
 
-@media (max-width:1269px){
-    .gallery-left{
+@media (max-width:1269px) {
+    .gallery-left {
         margin-left: -5em;
     }
-    .gallery-right{
+
+    .gallery-right {
         margin-left: 2em;
     }
 }
 
-@media (max-width:1205px){
-    .gallery{
+@media (max-width:1205px) {
+    .gallery {
         flex-direction: column;
         align-items: center;
         margin-left: -9em;
     }
 
-    .gallery-left{
+    .gallery-left {
         margin-left: -10em;
     }
-    
-    .gallery-prince{
-        margin-left:2em;
+
+    .gallery-prince {
+        margin-left: 2em;
         margin-right: 2em;
     }
-    
-    .Rei{
+
+    .Rei {
         width: 350px;
         height: 405px;
     }
 
-    .Gloria-Maria{
+    .Gloria-Maria {
         width: 350px;
         height: 200px;
     }
 
-    .gallery-sec{
-      margin-left: -1em;
+    .gallery-sec {
+        margin-left: -1em;
     }
-    .Cachos-Ruivos{
+
+    .Cachos-Ruivos {
         width: 300px;
         height: 200px;
     }
 
-    .Killmonger{
+    .Killmonger {
         width: 300px;
         height: 200px;
     }
 
-    .Moça-foto{
+    .Moça-foto {
         width: 300px;
         height: 200px;
     }
 
-    footer{
+    footer {
         top: 110em;
     }
 }
 
-@media (max-width:1200px){
-    .crespos-left{
+@media (max-width:1200px) {
+    .crespos-left {
         margin: 0 auto;
         left: 0;
     }
-    .crespos-right{
+
+    .crespos-right {
         margin: 0 auto;
-        left: -1em; 
+        left: -1em;
     }
 
-    .crespos-top{
+    .crespos-top {
         margin-bottom: 10em;
     }
-    .crespos-mid{
+
+    .crespos-mid {
         margin-bottom: 12em;
     }
-    .crespos-center{
+
+    .crespos-center {
         margin-bottom: 10em;
     }
 
-    footer{
-        top:120em;
+    footer {
+        top: 120em;
     }
 
 }
 
-@media (max-width:1190px){
-    .header-nav{
+@media (max-width:1190px) {
+    .header-nav {
         padding: 2%;
     }
-    .navegation-options ul{
+
+    .navegation-options ul {
         width: 100%;
         margin-left: -0.5em;
         margin-right: 2em;
     }
-    .main-text{
+
+    .main-text {
         font-size: 1.4em;
     }
-    .journey-text{
+
+    .journey-text {
         font-size: 1em;
     }
 }
 
-@media (max-width:1170px){
+@media (max-width:1170px) {
 
-    .contain-crespos{
+    .contain-crespos {
         width: 380px;
         height: 320px;
     }
-    .ondulado{
+
+    .ondulado {
         top: 4em;
     }
 
-    .crespos-left{
+    .crespos-left {
         top: -1em;
     }
-    .crespos-right{
+
+    .crespos-right {
         top: 8em;
     }
 
-    .crespos-top{
+    .crespos-top {
         margin-bottom: 5em;
     }
-    .crespos-top .crespos-left:hover .box-text{
+
+    .crespos-top .crespos-left:hover .box-text {
         top: 12em;
         width: 290px;
         height: 270px;
     }
-    .crespos-top .crespos-right:hover .box-text{
+
+    .crespos-top .crespos-right:hover .box-text {
         top: 14em;
         width: 320px;
         height: 230px;
     }
 
-    .crespos-mid{
+    .crespos-mid {
         margin-bottom: 5em;
     }
-    .crespos-mid .crespos-left:hover .box-text{
+
+    .crespos-mid .crespos-left:hover .box-text {
         top: 14em;
         width: 290px;
         height: 200px;
     }
-    .crespos-mid .crespos-right:hover .box-text{
+
+    .crespos-mid .crespos-right:hover .box-text {
         top: 15em;
         width: 320px;
         height: 250px;
     }
 
-    .crespos-center{
+    .crespos-center {
         margin-bottom: 7em;
     }
-    .crespos-center .crespos-left:hover .box-text{
+
+    .crespos-center .crespos-left:hover .box-text {
         top: 14em;
         width: 290px;
         height: 240px;
     }
-    .crespos-center .crespos-right:hover .box-text{
+
+    .crespos-center .crespos-right:hover .box-text {
         top: 18em;
         width: 300px;
         height: 200px;
     }
 
-    .crespos-bottom .crespos-left:hover .box-text{
+    .crespos-bottom .crespos-left:hover .box-text {
         top: 15em;
         width: 300px;
         height: 190px;
     }
 
-    footer{
+    footer {
         top: 130em;
     }
 }
 
-@media (max-width:1080px){
-    form{
+@media (max-width:1080px) {
+    form {
         display: none;
     }
 
-    .container-text{
+    .container-text {
         padding: 2em;
     }
 }
 
-@media (max-width:1060px){
-    .img-crespos{
+@media (max-width:1060px) {
+    .img-crespos {
         top: 26em;
     }
 }
 
-@media (max-width:1048px){
-    .nav-search{
+@media (max-width:1048px) {
+    .nav-search {
         width: 20%;
     }
 
-    .container-text{
+    .container-text {
         flex-direction: column;
         align-items: center;
         padding: 0;
     }
 
-    .main-text{
+    .main-text {
         width: 70%;
         font-size: 20px;
         padding-top: 1em;
     }
-    .journey-text{
+
+    .journey-text {
         width: 70%;
     }
 }
 
-@media (max-width:1000px){
-    .navegation-options ul li{
+@media (max-width:1000px) {
+    .navegation-options ul li {
         font-size: 12px;
     }
 }
 
-@media (max-width:936px){
-    .header-nav{
+@media (max-width:936px) {
+    .header-nav {
         justify-content: space-evenly;
     }
-    .navegation-options{
+
+    .navegation-options {
         width: 70%;
     }
-    .navegation-options ul li{
-        font-size: 10px;   
+
+    .navegation-options ul li {
+        font-size: 10px;
     }
 
-    .container-main{
+    .container-main {
         flex-direction: column;
     }
 
-    .tricks{
-       top: 3em;
-       left: 0.5em;
+    .tricks {
+        top: 3em;
+        left: 0.5em;
     }
 
-    .sab{
+    .sab {
         top: 14em;
         left: 1.5em;
     }
 
-    .container-text h1{
+    .container-text h1 {
         font-size: 25px;
     }
-    .container-text p{
+
+    .container-text p {
         font-size: 15px;
     }
 
-     .contain-crespos{
+    .contain-crespos {
         width: 400px;
         height: 320px;
     }
 
-   .crespos-top{
-       flex-direction: column;
-   }
-   .crespos-top .crespos-right:hover .box-text{
-       top: 12em;
-       height: 20em;
-   }
-
-   .crespos-mid{
-       flex-direction: column;
-       position: relative;
-       top:13em;
-   }
-   .crespos-mid .crespos-left:hover .box-text{
-    top: 14em;
-    height: 15em;
+    .crespos-top {
+        flex-direction: column;
     }
-    .crespos-mid .crespos-right:hover .box-text{
+
+    .crespos-top .crespos-right:hover .box-text {
+        top: 12em;
+        height: 20em;
+    }
+
+    .crespos-mid {
+        flex-direction: column;
+        position: relative;
+        top: 13em;
+    }
+
+    .crespos-mid .crespos-left:hover .box-text {
+        top: 14em;
+        height: 15em;
+    }
+
+    .crespos-mid .crespos-right:hover .box-text {
         top: 19em;
         height: 13em;
     }
 
-   .crespos-center{
-       flex-direction: column;
-       position: relative;
-       top: 25em;
-   }
-   .crespos-center .crespos-left:hover .box-text{
-    top: 13em;
-    height: 16em;
+    .crespos-center {
+        flex-direction: column;
+        position: relative;
+        top: 25em;
     }
-   .crespos-center .crespos-right:hover .box-text{
-       top: 18em;
-       height: 15em;
-   }
 
-   .crespos-bottom{
-       flex-direction: column;
-       position: relative;
-       top: 40em;
-   }
+    .crespos-center .crespos-left:hover .box-text {
+        top: 13em;
+        height: 16em;
+    }
 
-   .crespos-left{
-       top:-4em;
-       
-   }
-   .crespos-right{
-       left: -1em;
-       top: 6em;
-   }
+    .crespos-center .crespos-right:hover .box-text {
+        top: 18em;
+        height: 15em;
+    }
 
-   .gallery{
-       top: 285em;
-   }
+    .crespos-bottom {
+        flex-direction: column;
+        position: relative;
+        top: 40em;
+    }
 
-   footer{
-       top:170em
-   }
+    .crespos-left {
+        top: -4em;
+
+    }
+
+    .crespos-right {
+        left: -1em;
+        top: 6em;
+    }
+
+    .gallery {
+        top: 285em;
+    }
+
+    footer {
+        top: 170em
+    }
 
 }
 
-@media (max-width:910px){
-    .img-crespos{
+@media (max-width:910px) {
+    .img-crespos {
         flex-direction: column;
     }
-    .nav-search{
+
+    .nav-search {
         display: none;
     }
-    .header-nav{
+
+    .header-nav {
         justify-content: space-evenly;
     }
-    .navegation-options{
+
+    .navegation-options {
         width: 90%;
     }
 }
 
-@media (max-width:777px){
+@media (max-width:777px) {
 
-    .img-crespos{
+    .img-crespos {
         top: 30em;
     }
 
-    .gallery{
+    .gallery {
         left: -3.5em;
     }
 
-    .contain-foot{
+    .contain-foot {
         padding-left: 2em;
     }
 
-    .foot-CopyR p{
+    .foot-CopyR p {
         font-size: 0.5em;
     }
 
@@ -914,148 +967,152 @@ footer{
     }
 }
 
-@media (max-width:665px){
-    
-    .gallery-left{
+@media (max-width:665px) {
+
+    .gallery-left {
         margin-left: 1em;
     }
 
-    .Rei{
+    .Rei {
         width: 250px;
         height: 405px;
     }
 
-    .Gloria-Maria{
+    .Gloria-Maria {
         width: 250px;
         height: 200px;
     }
 
-    .gallery-sec{
-      margin-left: -1em;
+    .gallery-sec {
+        margin-left: -1em;
     }
 
-    .Cachos-Ruivos{
+    .Cachos-Ruivos {
         width: 200px;
         height: 200px;
     }
 
-    .Killmonger{
+    .Killmonger {
         width: 200px;
         height: 200px;
     }
 
-    .Moça-foto{
+    .Moça-foto {
         width: 200px;
         height: 200px;
     }
 
 
-    .gallery-right{
+    .gallery-right {
         margin-left: 13em;
-        
+
     }
 
-    .cigarro{
+    .cigarro {
         width: 150px;
         height: 405px;
         margin-bottom: 0.3em;
     }
 
-    .Snoopydog{
+    .Snoopydog {
         width: 150px;
         height: 195px;
     }
 
-    .cabelo-grande{
+    .cabelo-grande {
         width: 175px;
         height: 605px;
     }
 
-    .trançasA{
+    .trançasA {
         width: 125px;
         height: 195px;
         margin-bottom: 0.3em;
     }
 
-    .carinhoB{
+    .carinhoB {
         width: 125px;
         height: 405px;
     }
 
 }
 
-@media (max-width:655px){
+@media (max-width:655px) {
 
-    .header-nav{
-         justify-content: flex-start;
-         padding: 0;
+    .header-nav {
+        justify-content: flex-start;
+        padding: 0;
     }
 
-    .menu{
+    .menu {
         display: flex;
         width: 100px;
     }
-    .menu img{
+
+    .menu img {
         width: 100%;
         height: 100%;
     }
 
-    .logo{
+    .logo {
         position: relative;
         left: 10em;
     }
 
-    .navegation-options{
+    .navegation-options {
         display: none;
     }
 
-    .container-main{
+    .container-main {
         top: 0em;
-        background-position:35%;
+        background-position: 35%;
         background-size: 200%;
     }
 
-    .container-text{
+    .container-text {
         top: 34em;
         height: 25em;
         padding: 2em;
     }
 
-    .main-text{
+    .main-text {
         width: 100%;
     }
 
-    .journey-text{
+    .journey-text {
         width: 100%;
     }
-    .journey-text p{
+
+    .journey-text p {
         margin-bottom: 2em;
         font-size: 1em;
     }
 
-    .img-crespos{
+    .img-crespos {
         top: 30em;
     }
 
-    .crespos-top .crespos-left{
+    .crespos-top .crespos-left {
         top: -5em;
     }
 
-    .crespos-top .crespos-left .box-text{
+    .crespos-top .crespos-left .box-text {
         z-index: 12;
         top: 10em;
         width: 100%;
         height: 30em;
         opacity: 1;
     }
-    .crespos-top .crespos-left:hover .box-text{
+
+    .crespos-top .crespos-left:hover .box-text {
         z-index: 12;
         top: 10em;
         width: 100%;
         height: 30em;
         opacity: 1;
     }
-    .crespos-top .crespos-left .box-text h3{
+
+    .crespos-top .crespos-left .box-text h3 {
         padding-top: 0;
         margin: 0 auto;
         position: relative;
@@ -1064,7 +1121,8 @@ footer{
         font-size: 1.6em;
         margin-bottom: 1em;
     }
-    .crespos-top .crespos-left .box-text p{
+
+    .crespos-top .crespos-left .box-text p {
         width: 22em;
         margin: 0 auto;
         position: relative;
@@ -1074,29 +1132,31 @@ footer{
         font-size: 1em;
     }
 
-    .crespos-right{
-        left: 0em; 
+    .crespos-right {
+        left: 0em;
     }
 
-    .crespos-top .crespos-right{
+    .crespos-top .crespos-right {
         top: 17em;
     }
 
-    .crespos-top .crespos-right .box-text{
+    .crespos-top .crespos-right .box-text {
         z-index: 12;
-        top: 17em;
+        top: 15em;
         width: 100%;
-        height: 30em;
+        height: 32em;
         opacity: 1;
     }
-    .crespos-top .crespos-right:hover .box-text{
+
+    .crespos-top .crespos-right:hover .box-text {
         z-index: 12;
-        top: 17em;
+        top: 15em;
         width: 100%;
-        height: 30em;
+        height: 32em;
         opacity: 1;
     }
-    .crespos-top .crespos-right .box-text h3{
+
+    .crespos-top .crespos-right .box-text h3 {
         padding-top: 0;
         margin: 0 auto;
         position: relative;
@@ -1105,7 +1165,8 @@ footer{
         font-size: 1.6em;
         margin-bottom: 1em;
     }
-    .crespos-top .crespos-right .box-text p{
+
+    .crespos-top .crespos-right .box-text p {
         width: 22em;
         margin: 0 auto;
         position: relative;
@@ -1115,27 +1176,31 @@ footer{
         font-size: 1em;
     }
 
-    .crespos-mid .crespos-left{
+    .crespos-mid .crespos-left {
         top: 28em;
     }
-    .crespos-mid{
+
+    .crespos-mid {
         margin-left: 0em;
     }
-    .crespos-mid .crespos-left .box-text{
+
+    .crespos-mid .crespos-left .box-text {
         z-index: 12;
-        top: 15em;
+        top: 13em;
         width: 100%;
-        height: 18em;
+        height: 20em;
         opacity: 1;
     }
-    .crespos-mid .crespos-left:hover .box-text{
+
+    .crespos-mid .crespos-left:hover .box-text {
         z-index: 12;
-        top: 15em;
+        top: 13em;
         width: 100%;
-        height: 18em;
+        height: 20em;
         opacity: 1;
     }
-    .crespos-mid .crespos-left .box-text h3{
+
+    .crespos-mid .crespos-left .box-text h3 {
         padding-top: 0;
         margin: 0 auto;
         position: relative;
@@ -1144,7 +1209,8 @@ footer{
         font-size: 1.6em;
         margin-bottom: 1em;
     }
-    .crespos-mid .crespos-left .box-text p{
+
+    .crespos-mid .crespos-left .box-text p {
         width: 22em;
         margin: 0 auto;
         position: relative;
@@ -1154,24 +1220,27 @@ footer{
     }
 
 
-    .crespos-mid .crespos-right{
+    .crespos-mid .crespos-right {
         top: 43em;
     }
-    .crespos-mid .crespos-right .box-text{
+
+    .crespos-mid .crespos-right .box-text {
         z-index: 12;
         top: 18em;
         width: 100%;
         height: 19em;
         opacity: 1;
     }
-    .crespos-mid .crespos-right:hover .box-text{
+
+    .crespos-mid .crespos-right:hover .box-text {
         z-index: 12;
         top: 18em;
         width: 100%;
         height: 19em;
         opacity: 1;
     }
-    .crespos-mid .crespos-right .box-text h3{
+
+    .crespos-mid .crespos-right .box-text h3 {
         padding-top: 0;
         margin: 0 auto;
         position: relative;
@@ -1180,7 +1249,8 @@ footer{
         font-size: 1.6em;
         margin-bottom: 1em;
     }
-    .crespos-mid .crespos-right .box-text p{
+
+    .crespos-mid .crespos-right .box-text p {
         width: 22em;
         position: relative;
         left: -0.5em;
@@ -1191,27 +1261,31 @@ footer{
     }
 
 
-    .crespos-center .crespos-left{
+    .crespos-center .crespos-left {
         top: 42em;
     }
-    .crespos-center{
+
+    .crespos-center {
         margin-left: 0em;
     }
-    .crespos-center .crespos-left .box-text{
+
+    .crespos-center .crespos-left .box-text {
         z-index: 12;
-        top: 15em;
+        top: 13em;
         width: 100%;
-        height: 22em;
+        height: 25em;
         opacity: 1;
     }
-    .crespos-center .crespos-left:hover .box-text{
+
+    .crespos-center .crespos-left:hover .box-text {
         z-index: 12;
-        top: 15em;
+        top: 13em;
         width: 100%;
-        height: 22em;
+        height: 25em;
         opacity: 1;
     }
-    .crespos-center .crespos-left .box-text h3{
+
+    .crespos-center .crespos-left .box-text h3 {
         padding-top: 0;
         margin: 0 auto;
         position: relative;
@@ -1220,7 +1294,8 @@ footer{
         font-size: 1.6em;
         margin-bottom: 1em;
     }
-    .crespos-center .crespos-left .box-text p{
+
+    .crespos-center .crespos-left .box-text p {
         width: 22em;
         margin: 0 auto;
         position: relative;
@@ -1231,24 +1306,27 @@ footer{
     }
 
 
-    .crespos-center .crespos-right{
+    .crespos-center .crespos-right {
         top: 61em;
     }
-    .crespos-center .crespos-right .box-text{
+
+    .crespos-center .crespos-right .box-text {
         z-index: 12;
-        top: 18em;
+        top: 16em;
         width: 100%;
-        height: 18.5em;
+        height: 20em;
         opacity: 1;
     }
-    .crespos-center .crespos-right:hover .box-text{
+
+    .crespos-center .crespos-right:hover .box-text {
         z-index: 12;
-        top: 18em;
+        top: 16em;
         width: 100%;
-        height: 18.5em;
+        height: 20em;
         opacity: 1;
     }
-    .crespos-center .crespos-right .box-text h3{
+
+    .crespos-center .crespos-right .box-text h3 {
         padding-top: 0;
         margin: 0 auto;
         position: relative;
@@ -1257,7 +1335,8 @@ footer{
         font-size: 1.6em;
         margin-bottom: 1em;
     }
-    .crespos-center .crespos-right .box-text p{
+
+    .crespos-center .crespos-right .box-text p {
         width: 22em;
         position: relative;
         left: -0.5em;
@@ -1267,27 +1346,31 @@ footer{
         font-size: 1em;
     }
 
-    .crespos-bottom .crespos-left{
+    .crespos-bottom .crespos-left {
         top: 62em;
     }
-    .crespos-bottom{
+
+    .crespos-bottom {
         margin-left: 0em;
     }
-    .crespos-bottom .crespos-left .box-text{
+
+    .crespos-bottom .crespos-left .box-text {
         z-index: 12;
         top: 17em;
         width: 100%;
         height: 17em;
         opacity: 1;
     }
-    .crespos-bottom .crespos-left:hover .box-text{
+
+    .crespos-bottom .crespos-left:hover .box-text {
         z-index: 12;
         top: 17em;
         width: 100%;
         height: 17em;
         opacity: 1;
     }
-    .crespos-bottom .crespos-left .box-text h3{
+
+    .crespos-bottom .crespos-left .box-text h3 {
         padding-top: 0;
         margin: 0 auto;
         position: relative;
@@ -1296,7 +1379,8 @@ footer{
         font-size: 1.6em;
         margin-bottom: 1em;
     }
-    .crespos-bottom .crespos-left .box-text p{
+
+    .crespos-bottom .crespos-left .box-text p {
         width: 22em;
         position: relative;
         left: -0.5em;
@@ -1305,172 +1389,107 @@ footer{
         padding-top: 0;
         font-size: 1em;
     }
-    .crespos-bottom .ondulado{
+
+    .crespos-bottom .ondulado {
         top: 72em;
     }
 
-    .gallery{
+    .gallery {
         top: 350em;
     }
 
-    footer{
+    footer {
         top: 240em;
     }
 
-    .contain-foot{
+    .contain-foot {
         background: white;
         color: black;
         display: inline;
     }
 
-    .foot-CopyR h4{
+    .foot-CopyR h4 {
         display: flex;
         font-weight: bold;
         font-family: 'Montserrat', sans-serif;
         font-size: small;
     }
 
-    .img-foot{
+    .img-foot {
         display: flex;
         width: 100%;
         justify-content: space-between;
         margin-bottom: 1em;
     }
-    .redes-foot img{
+
+    .redes-foot img {
         margin-right: 1em;
         cursor: pointer;
     }
 
-    .nav-foot{
+    .nav-foot {
         display: none;
     }
 
 
 }
 
-@media (max-width:585px){
-    .container-text{
+@media (max-width:585px) {
+    .container-text {
         top: 28em;
     }
 
-    .img-crespos{
+    .img-crespos {
         top: 22em;
     }
 }
 
-@media (max-width:563px){
-    .container-main{
+@media (max-width:563px) {
+    .container-main {
         top: -2em;
     }
-    .container-text{
+
+    .container-text {
         padding-top: 0em;
     }
 
 }
 
-@media (max-width:515px){
-    .container-text{
-       height: 25em;
+@media (max-width:515px) {
+    .container-text {
+        height: 25em;
     }
 
-    .gallery{
+    .gallery {
         left: -5em;
     }
 }
 
-@media (max-width:500px){
-    .container-text{
+@media (max-width:500px) {
+    .container-text {
         top: 26em;
     }
-    
-    .gallery{
+
+    .gallery {
         left: -6em;
     }
 }
 
-@media (max-width:470px){
-    .main-text{
+@media (max-width:470px) {
+    .main-text {
         margin-bottom: 3em;
     }
 
-    .container-text{
+    .container-text {
         height: 30em;
     }
 
-    .img-crespos{
+    .img-crespos {
         top: 25em;
     }
 }
 
-@media (max-width: 454px){
-
-    .gallery{
-        left: -3em;
-    }
-
-    .Rei{
-        width: 200px;
-        height: 405px;
-    }
-
-    .Gloria-Maria{
-        width: 200px;
-        height: 200px;
-    }
-
-    .Cachos-Ruivos{
-        width: 150px;
-        height: 200px;
-    }
-
-    .Killmonger{
-        width: 150px;
-        height: 200px;
-    }
-
-    .Moça-foto{
-        width: 150px;
-        height: 200px;
-    }
-
-    .cigarro{
-        width: 125px;
-        height: 405px;
-        margin-bottom: 0.3em;
-    }
-
-    .Snoopydog{
-        width: 125px;
-        height: 195px;
-    }
-
-    .cabelo-grande{
-        width: 125px;
-        height: 605px;
-    }
-
-    .trançasA{
-        width: 100px;
-        height: 195px;
-        margin-bottom: 0.3em;
-    }
-
-    .carinhoB{
-        width: 100px;
-        height: 405px;
-    }
-}
-
-@media (max-width:435px){
-
-    .container-main{
-        background-position:25%;
-        background-size: 200%;
-    }
-
-    .container-text{
-        top: 24em;
-    }
+@media (max-width: 456px) {
 
     .tricks {
         font-size: 30px;
@@ -1479,37 +1498,119 @@ footer{
     }
 
     .sab {
-       font-size: 15px;
-       top: 20em;
-       left: 4em;
+        font-size: 15px;
+        top: 20em;
+        left: 4em;
+    }
+
+    .container-text {
+        height: 32em;
+    }
+
+    .img-crespos {
+        top: 30em;
+    }
+
+    .crespos-center {
+        top: 28em;
+    }
+
+    .gallery {
+        left: -3em;
+    }
+
+    .Rei {
+        width: 200px;
+        height: 405px;
+    }
+
+    .Gloria-Maria {
+        width: 200px;
+        height: 200px;
+    }
+
+    .Cachos-Ruivos {
+        width: 150px;
+        height: 200px;
+    }
+
+    .Killmonger {
+        width: 150px;
+        height: 200px;
+    }
+
+    .Moça-foto {
+        width: 150px;
+        height: 200px;
+    }
+
+    .cigarro {
+        width: 125px;
+        height: 405px;
+        margin-bottom: 0.3em;
+    }
+
+    .Snoopydog {
+        width: 125px;
+        height: 195px;
+    }
+
+    .cabelo-grande {
+        width: 125px;
+        height: 605px;
+    }
+
+    .trançasA {
+        width: 100px;
+        height: 195px;
+        margin-bottom: 0.3em;
+    }
+
+    .carinhoB {
+        width: 100px;
+        height: 405px;
+    }
+}
+
+@media (max-width:435px) {
+
+    .container-main {
+        background-position: 25%;
+        background-size: 200%;
+    }
+
+    .container-text {
+        top: 24em;
     }
 
 }
 
-@media (max-width:401px){
-    .container-text{
+@media (max-width:401px) {
+    .container-text {
         height: 33em;
     }
 }
 
-@media (max-width:399px){
-    .contain-crespos{
-        width: 320px;
-    }
-    .contain-crespos img{
+@media (max-width:399px) {
+    .contain-crespos {
         width: 320px;
     }
 
-    .gallery{
+    .contain-crespos img {
+        width: 320px;
+    }
+
+    .gallery {
         left: -4em;
     }
 }
 
-@media (max-width:381px){
-    .container-main{
+@media (max-width:381px) {
+    .container-main {
         top: -3em;
     }
-    .container-text{
+
+    .container-text {
         top: 21em;
     }
 }
